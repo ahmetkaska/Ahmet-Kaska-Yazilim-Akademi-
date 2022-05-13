@@ -1,0 +1,74 @@
+.header {
+    height: 30px; 
+}
+h1 {
+    background-color: coral;  
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 200px;
+    
+}
+
+.section-1 {
+     background-image: url("register.jpeg");
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 49%;
+     height: 600px;
+     float: left;
+}
+
+.section-2 {
+    float: left;
+    width: 49%;
+    height: 600px;
+    background-color: coral;
+    border: 5px solid darkgray ;
+    border-radius: 115px;
+    font-size: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+}
+table {
+    width: 99%;
+    text-align: center;
+}
+
+input {
+    
+    margin: 10px;
+    width: 30%;
+    height: 30px;
+    font-size: bold;
+}
+.container {
+    position: relative;
+}
+
+button {
+    width: 15%;
+    height: 40px;
+    background-color:#2e4c6d;
+    color: white;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    
+}
+button:link {
+    background-color: black;
+}
+button:visited {
+    background-color: #2e4c6d;
+}
+button:hover {
+    background-color: dodgerblue;
+}
+button:active {
+    background-color: red;
+}
+.back {
+    background-color: antiquewhite;
+    color: black;
+    
+     
+}

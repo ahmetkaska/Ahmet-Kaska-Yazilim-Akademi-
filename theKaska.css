@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+header{
+    position: fixed;
+    background-color:#FCFFE7;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.links{
+    display: inline-block;
+    font-size: 1.2rem;
+    width: calc(100% - 502px);
+    height: auto;
+    text-align: right;
+}
+
+header h1{
+    font-size: 3rem;
+    display: inline;
+    color: #2e4c6d;
+    margin-left: 10px;
+}
+.links a {
+ display: inline-block;
+ text-decoration: none;
+ color: aliceblue;
+ border: 1px solid black;
+ border-radius: 15px;
+ background-color: #2e4c6d;
+ padding: 10px;
+ margin-top: 0;
+ width: 100px;
+ height: 35px;
+ text-align: center;
+ margin-top: 0;
+ 
+}
+.links a:link {
+    background-color: black;
+}
+.links  a:visited {
+    background-color: #2e4c6d;
+}
+.links  a:hover {
+    background-color: dodgerblue;
+}
+.links a:active {
+    background-color: red;
+}
+
+main { 
+    position: sticky;
+    top: 0;
+    z-index: -2;
+    display: inline-block;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+  /*  background: linear-gradient(to bottom right,rgba(230,255,230,0.1),rgba(102,255,102,0.1),url('bg.jpg')); */
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+}
+main h1 {
+    color: black;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cover {
+    background-color: #00ff99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.1;
+}
+
+
+section {
+    margin: 75px;
+    
+}
+.section-div1__mesage{
+ padding: 10px;
+ text-align: center;
+ color: #FCFFE7;
+ background-color: #1A374D;
+ border: 5px solid darkgray;
+ border-radius: 15px;
+ box-shadow: 0px 7px 29px 0px rgba(100,100,111,0.2);
+ transition: box-shadow 0.6s;
+ opacity: 0.9;
+}
+.section-div1__mesage:hover{
+    box-shadow: 7px 17px 29px 0px rgba(100,100,111,0.8);
+   
+   }
+.section-div1__mesage p {
+ margin-top: 20px;
+ 
+}
+.section-div2__courses{
+    background-color: #1A374D;
+    color: #FCFFE7;
+    margin-top: 75px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 5px solid darkgray;
+    border-radius: 15px;
+}
+.course {
+    display: inline-block;
+    width: 33%;
+} 
+.course h1 {
+    text-align: center;        
+}
+
+.course ul {
+    padding: 20px;
+}
+.academi {
+  
+    height: 400px;
+    text-align: center;
+    
+}
+.academi_ {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    
+}
+.image {
+    height: 300px;
+    background-position: center;
+    background-size: contain;
+    background-image: url('yazilim.jpeg');
+    border-radius: 20px;
+    background-color: #2e4c6d;
+    opacity: 0.8;
+    
+}
+.makale {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    letter-spacing: 1px;
+    color: #FCFFE7;
+}
+#contact{
+    background-color: #FCFFE7;
+    color:#fff;
+    padding: 1rem;
+    clip-path: polygon(50% 0%, 100% 8%, 100% 100%, 0 100%, 0 8%);
+
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+
+#contact .contact-form ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0.5rem;
+    align-self: center;
+    
+}
+
+#contact .contact-form ul li {
+    display: flex;
+    padding-right: 25px;
+    
+}
+#contact .contact-form ul li a {
+    font-size: 25px;
+    transition-duration: .6s;
+    height: 100px;
+    width: 200px;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#contact .contact-form ul li a:link {
+    background-color: black;
+}
+#contact .contact-form ul li  a:visited {
+    background-color: #2e4c6d;
+}
+#contact .contact-form ul li  a:hover {
+    background-color: dodgerblue;
+}
+#contact .contact-form ul li a:active {
+    background-color: red;
+}
+
+#contact .contact-form ul li a i {
+    font-size: 2rem;
+    padding: 1rem;
+    
+}
+
+.scroll  {
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+   
+}
+
+.scroll a i {
+    color: dodgerblue;
+}
+
+
+
+
+
+
